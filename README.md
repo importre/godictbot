@@ -28,7 +28,7 @@ request handler에 의해 처리 (web request와 유사)
 ### Types of Message in GAE
 
 메시지 타입 | 가능여부
-- | -
+--- | ---
 chat | **O**
 error | X
 groupchat | X
@@ -41,7 +41,7 @@ normal | **O**
 ### Terms
 
 term | desc
-- | -
+--- | ---
 JID | Jabber ID
 XML Stanza | XML package ?!
 
@@ -50,7 +50,7 @@ Sending chat messages
 ---------------------
 
 language | doc
-- | -
+--- | ---
 java | [link][1]
 go | [link][2]
 
@@ -96,7 +96,7 @@ allows your application to receive error stanzas.
 앞서 언급했듯, **chat**과 **normal** 타입만 받기 때문에, 다른 메시지는 무시됨(핸들러 호출 안됨)
 
 language | doc
-- | -
+--- | ---
 java | [link][3]
 go | [link][4]
 
